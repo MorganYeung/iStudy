@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+p {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #36384c;
+  font-size: 1em;
+}
+
+h1 {
+	font: 3em 'Roboto Condensed', sans-serif;
+
+	color: #36384c;
+	margin: 0 auto;
+}
+h2 {
+	font: 2em 'Roboto Condensed', sans-serif;
+  letter-spacing: 3px;
+	color: #36384c;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #36384c;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.hero-image {
+  background: url("hero.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size:cover;
+  /* background-attachment: fixed; */
+
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-top: 180px;
+  width: 35%;
+}
+
+.girlComputer {
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.section2 p {
+  text-align: left;
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.alexa img, .slack img {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.section3 {
+  background-color: #FBF4F3;
+}
+
+.section3 h2 {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.section3 p, .section3 h3 {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.section3 p {
+  margin-bottom: 30px;
+}
+
+
+.footer {
+  height: 400px;
+  background-color: #white;
+}
+
+.footer h2 {
+  margin-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
